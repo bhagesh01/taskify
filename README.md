@@ -35,5 +35,5 @@ A powerful and user-friendly task management app built with Next.js, MongoDB, Ex
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/task-manager-app.git
+   git clone https://github.com/bhagesh01/taskify.git
    cd task-manager-app
