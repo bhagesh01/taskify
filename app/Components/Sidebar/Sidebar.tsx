@@ -38,7 +38,7 @@ function Sidebar() {
       <div className="profile">
         <div className="profile-overlay"></div>
         <div className="image">
-          <Image src={imageUrl} width={70} height={70}  alt="profile" />
+          <Image width={70} height={70} src={imageUrl} alt="profile" />
         </div>
         <div className="user-btn absolute z-20 top-0 w-full h-full">
           <UserButton />
@@ -74,7 +74,7 @@ function Sidebar() {
           fs={"1.2rem"}
           icon={logout}
           click={() => {
-            signOut(() => router.push("/"));
+            signOut(() => router.push("/signin"));
           }}
         />
       </div>
